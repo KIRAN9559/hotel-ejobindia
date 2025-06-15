@@ -8,6 +8,9 @@ html{
     color: #000000;
 
 }
+.clear{
+    clear: both;
+}
 header{
     background-color: #0f0f0f;
 }
@@ -32,3 +35,27 @@ header .navbar-light .navbar-nav .btn-primary{
     text-transform: uppercase;
     
 }
+
+
+/* -------------------------------------------------------------------------- */
+/*                               BANNER SECTION                               */
+/* -------------------------------------------------------------------------- */
+.banner .carousel-indicators [data-bs-target]{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ff8901;
+}
+/* .banner .carousel-inner .carousel-item .carousel-caption h1{
+    position: relative;
+
+}
+.banner.carousel-inner .carousel-item .carousel-caption h1::before{
+    position: absolute;
+    contain: "";
+    width: 400px;
+    height: 2px;
+    background-color: #ff8901;
+    bottom: 1px ;
+    left: 1px;
+} */
