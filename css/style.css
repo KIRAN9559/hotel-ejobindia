@@ -77,6 +77,9 @@ header .navbar-light .navbar-nav .btn-primary{
     margin-bottom: 60px;
     text-align: center;
  }
+  .legacy .legacy-image{
+    text-align: center;
+  }
  .legacy .heading-subheading h2{
     font-family: "EB Garamond", serif;
     font-size: 36px;
@@ -226,7 +229,7 @@ font-size: 18px;
     padding-top: 60px;
  }
  .rate .heading-subheading{
-    margin-bottom: 60px;
+    margin-bottom: 36px;
     text-align: center;
  }
  .rate .heading-subheading h2{
@@ -240,9 +243,11 @@ font-size: 18px;
   }
 .rate .rate-images{
     text-align: center;
+    margin-top: 24px;
     
 }
 .rate .rate-images:hover{
     background-color: #fff;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 10px;
 }

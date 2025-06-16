@@ -1,0 +1,52 @@
+@media (min-width: 1200px) and (max-width: 1399px){
+    .banner .carousel-inner .carousel-item .carousel-caption{
+    margin-bottom: 50px;
+ }
+ .our-team .team-member .team-text p{
+    padding: 10px 45px;
+ }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .banner .carousel-inner .carousel-item .carousel-caption{
+    margin-bottom: 40px;
+ }
+ .our-team .team-member .team-text p{
+    padding: 10px 15px;
+ }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .banner .carousel-inner .carousel-item .carousel-caption{
+    margin-bottom: 5px;
+ }
+ .our-team .team-member .team-text p{
+    padding: 10px 215px;
+ }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .banner .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+}
+.our-team .team-member .team-text p{
+    padding: 10px 125px;
+ }
+
+}
+@media (min-width: 0px) and (max-width: 575px){
+    .banner .carousel-indicators [data-bs-target]{
+    width: 0px;
+    height: 0px;
+}
+.legacy .legacy-image img{
+    max-width: 200px;
+    
+}
+.our-team .team-member .team-text p{
+    padding: 10px 0;
+}
+.love .item{
+    display: block;
+}
+}
