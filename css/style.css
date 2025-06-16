@@ -36,7 +36,6 @@ header .navbar-light .navbar-nav .btn-primary{
     
 }
 
-
 /* -------------------------------------------------------------------------- */
 /*                               BANNER SECTION                               */
 /* -------------------------------------------------------------------------- */
@@ -59,3 +58,156 @@ header .navbar-light .navbar-nav .btn-primary{
     bottom: 1px ;
     left: 1px;
 } */
+ .banner .carousel-inner .carousel-item .carousel-caption{
+    margin-bottom: 100px;
+ }
+ 
+ /* -------------------------------------------------------------------------- */
+ /*                               LEGACY SECTION                               */
+ /* -------------------------------------------------------------------------- */
+
+ .legacy{
+    background-color: #FFFBE9;
+ }
+ .legacy .container{
+    padding-bottom: 60px;
+    padding-top: 60px;
+ }
+ .legacy .heading-subheading{
+    margin-bottom: 60px;
+    text-align: center;
+ }
+ .legacy .heading-subheading h2{
+    font-family: "EB Garamond", serif;
+    font-size: 36px;
+    color: #ff8901;
+ }
+  .legacy .heading-subheading h5{
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+  }
+.legacy .legacy-image img{
+    border:2px solid #ffffff;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.legacy .legacy-text{
+     margin-top: 60px;
+}
+.legacy .legacy-text p{
+    margin-top: 40px;
+    font-family: "Gafata", sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+}
+.legacy .legacy-text h3{
+    position: relative;
+    font-family: "Jost", sans-serif;
+}
+.legacy .legacy-text h3::after{
+   position: absolute;
+  content: "";
+  bottom: -20px;
+  left: 0px;
+  height: 2px;
+  width: 441px;
+  background-color: #ff8901;
+}
+ .love .container{
+    padding-bottom: 60px;
+    padding-top: 60px;
+ }
+ .love .heading-subheading{
+    margin-bottom: 60px;
+    text-align: center;
+ }
+ .love .heading-subheading h2{
+    font-family: "EB Garamond", serif;
+    font-size: 36px;
+    color: #ff8901;
+ }
+  .love .heading-subheading h5{
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+  }
+
+  .love .item{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFAE8;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+  }
+  .love .item:hover{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  .love .item .item-text h4{
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+  }
+  .love .item .item-text p{
+    font-family: "Gafata", sans-serif;
+    font-size: 20px;
+    margin-bottom:0px;
+  }
+  .item {
+    display: flex;
+  }
+
+   .our-team .container{
+    padding-bottom: 60px;
+    padding-top: 60px;
+ }
+ .our-team .heading-subheading{
+    margin-bottom: 60px;
+    text-align: center;
+ }
+ .our-team .heading-subheading h2{
+    font-family: "EB Garamond", serif;
+    font-size: 36px;
+    color: #ff8901;
+ }
+  .our-team .heading-subheading h5{
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+  }
+.our-team .team-member{
+    text-align: center;
+}
+.our-team .team-member .member img{
+    border-radius: 10px 10px 0px 0px;
+}
+.our-team .team-member .member .overlay h6{
+  font-family: "Jost", sans-serif;
+font-size: 18px;  
+}
+.our-team .team-member .member{
+    position: relative;
+}
+.our-team .team-member .member .overlay{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%);
+    color: #fff;
+    opacity: 1;
+}
+.our-team .team-member .member .overlay-2{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #00000000;
+    border-radius: 50%;
+    box-shadow: rgba(255, 210, 85, 0.096) 0px 0px 0px 30px,rgba(255, 210, 85, 0.324) 0px 0px 0px 10px,rgba(255, 210, 85, 0.481) 0px 0px 0px 3px;
+    width: 220px;
+    aspect-ratio: 1;
+    z-index: -1;
+}
+.our-team .team-member .team-text p{
+  font-family: "Gafata", sans-serif;
+    font-size: 20px; 
+    padding: 0 75px; 
+}
