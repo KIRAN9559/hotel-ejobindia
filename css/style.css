@@ -116,8 +116,11 @@ header .navbar-light .navbar-nav .btn-primary{
     padding-bottom: 60px;
     padding-top: 60px;
  }
+ .love .col-lg-4{
+    margin-top: 24px;
+ }
  .love .heading-subheading{
-    margin-bottom: 60px;
+    margin-bottom: 36px;
     text-align: center;
  }
  .love .heading-subheading h2{
@@ -152,10 +155,9 @@ header .navbar-light .navbar-nav .btn-primary{
     font-size: 20px;
     margin-bottom:0px;
   }
-  .item {
-    display: flex;
-  }
-
+.our-team{
+    background-color: #F2FDFF;
+}
    .our-team .container{
     padding-bottom: 60px;
     padding-top: 60px;
@@ -193,6 +195,7 @@ font-size: 18px;
     transform: translate(-50%);
     color: #fff;
     opacity: 1;
+    z-index: 1;
 }
 .our-team .team-member .member .overlay-2{
     position: absolute;
@@ -204,10 +207,42 @@ font-size: 18px;
     box-shadow: rgba(255, 210, 85, 0.096) 0px 0px 0px 30px,rgba(255, 210, 85, 0.324) 0px 0px 0px 10px,rgba(255, 210, 85, 0.481) 0px 0px 0px 3px;
     width: 220px;
     aspect-ratio: 1;
-    z-index: -1;
 }
 .our-team .team-member .team-text p{
   font-family: "Gafata", sans-serif;
     font-size: 20px; 
     padding: 0 75px; 
+}
+
+
+.rate{
+    background-image: url(../images/rate-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+   .rate .container{
+    padding-bottom: 60px;
+    padding-top: 60px;
+ }
+ .rate .heading-subheading{
+    margin-bottom: 60px;
+    text-align: center;
+ }
+ .rate .heading-subheading h2{
+    font-family: "EB Garamond", serif;
+    font-size: 36px;
+    color: #ff8901;
+ }
+  .rate .heading-subheading h5{
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+  }
+.rate .rate-images{
+    text-align: center;
+    
+}
+.rate .rate-images:hover{
+    background-color: #fff;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
