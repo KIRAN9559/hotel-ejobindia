@@ -14,6 +14,7 @@ html{
 header{
     background-color: #0f0f0f;
 }
+
 header .navbar-light .navbar-nav .nav-link.active{
     color: #ff8901;
 }
@@ -34,6 +35,9 @@ header .navbar-light .navbar-nav .btn-primary{
     border: none;
     text-transform: uppercase;
     
+}
+.navbar-nav{
+  align-items: center;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -115,6 +119,14 @@ header .navbar-light .navbar-nav .btn-primary{
   width: 441px;
   background-color: #ff8901;
 }
+.legacy .legacy-text .btn{
+    text-align: center;
+    margin-left: 50%;
+    transform: translate(-50%);
+    background-color: #ff8901;
+    border: none;
+    text-transform: uppercase;
+}
  .love .container{
     padding-bottom: 60px;
     padding-top: 60px;
@@ -145,6 +157,7 @@ header .navbar-light .navbar-nav .btn-primary{
     padding: 15px 20px;
     border-radius: 10px;
     border: 2px solid #ffffff;
+    transition: all 0.3s;
   }
   .love .item:hover{
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
@@ -250,4 +263,358 @@ font-size: 18px;
     background-color: #fff;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     border-radius: 10px;
+}
+
+
+.rooms{
+  background-color:#FFFAE8;
+}
+   .rooms .container{
+    padding-bottom: 60px;
+    padding-top: 60px;
+ }
+ .rooms .heading-subheading{
+    margin-bottom: 36px;
+    text-align: center;
+ }
+ .rooms .heading-subheading h2{
+    font-family: "EB Garamond", serif;
+    font-size: 36px;
+    color: #ff8901;
+ }
+  .rooms .heading-subheading h5{
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+  }
+  .rooms .card{
+    margin-top: 24px;
+  }
+.rooms .card .overlay-1{
+position: absolute;
+    top: 40px;
+    right: -2px;
+    padding: 29px 29px 15px 30px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-radius: 10px 0px 0px 10px;
+    line-height: 0px;
+    z-index: 10;
+    transition: all 0.6s;
+}
+.rooms .card:hover .overlay-1{
+  padding: 29px 70px 15px 30px;
+}
+.rooms .card .overlay-1 p{
+  font-family: "Jost", sans-serif;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    z-index: 3;
+}
+.rooms .card .overlay-2{
+  position: absolute;
+  top: 480px;
+  left: 30px;
+  color: #fff;
+  z-index: 10;
+  transition: all 0.6s;
+}
+.rooms .card .overlay-3{
+  position: absolute;
+  bottom: 35px;
+  left: 17px;
+  color: #fff;
+  font-family: "Gafata", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  padding: 10px;
+  opacity: 0;
+  z-index: 10;
+  transition: all 1.5s;
+  transition-delay: 0.6;
+  
+}
+.rooms .card .overlay-2 p{
+  font-family: "Jost", sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-style: italic;
+  z-index: 6;
+}
+.rooms .card .overlay-2 h5{
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    z-index: 7;
+}
+.rooms .card .overlay-4{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 13;
+}
+.rooms .card .overlay-4 .btn-primary{
+  background-color: #ff8901;
+  border: none;
+  padding: 5px 20px;
+}
+.rooms .card:hover .overlay-3{
+  opacity: 1;
+}
+.rooms .card:hover .overlay-2{
+  top: 280px;
+}
+.rooms .card .card-img img{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.rooms .card .card-img .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(117, 96, 34, 0.375);
+  z-index: 10;
+  opacity: 0;
+  transition: all 0.6s;
+}
+.rooms .card:hover .card-img .overlay{
+  opacity: 1;
+}
+
+.rooms .card .room .room-img{
+  position: relative;
+}
+.rooms .card .room .overlay{
+  position: absolute;
+}
+
+
+ .offer  .container{
+    padding-bottom: 60px;
+    padding-top: 60px;
+ }
+ .offer  .heading-subheading{
+    margin-bottom: 36px;
+    text-align: center;
+ }
+ .offer  .heading-subheading h2{
+    font-family: "EB Garamond", serif;
+    font-size: 36px;
+    color: #ff8901;
+ }
+  .offer  .heading-subheading h5{
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+  }
+  .offer .offer-img .img-overlay{
+    overflow: hidden;
+  }
+.offer .offer-img{
+  text-align: center;
+}
+.offer .offer-img{
+  position: relative;
+}
+.offer .offer-img::after{
+  content: "";
+  position: absolute;
+  border: 5px solid #fff;
+  top: 20px;
+  bottom: 20px;
+  right: 20px;
+  left: 20px;
+  opacity: 0;
+  z-index: 11;
+  transition: all 0.6s;
+}
+.offer .offer-img:hover:after{
+  opacity: 1;
+}
+.offer .offer-img .btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 12;
+}
+.offer .offer-img .offer-text{
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.offer .offer-img .offer-text h3{
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+.offer .offer-img .img-overlay .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(117, 96, 34, 0.375);
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.6s;
+}
+.offer .offer-img:hover .img-overlay .overlay{
+  opacity: 1;
+}
+.offer .img-overlay .overlay h2{
+  font-family: "EB Garamond", serif;
+  font-size: 36px;
+  color: #fff;
+  padding-top: 25px;
+}
+.offer .img-overlay .overlay h2 span{
+  color: #000000;
+}
+.offer .offer-img .btn-primary{
+  background-color: #ff8901;
+  border: none;
+  padding: 5px 20px;
+}
+
+.room-booking{
+  padding-top: 60px;
+  background-image: url(../images/booking-back.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.room-booking .booking-form{
+  background-image: #080808;
+}
+.room-booking .booking-form .heading-subheading h5{
+  font-family: "EB Garamond", serif;
+  color: #ff8901;
+  font-size: 18px;
+}
+.room-booking .booking-form .heading-subheading h2{
+  font-size: 36px;
+  font-family: "Jost", sans-serif;
+  color: #fff;
+}
+.room-booking .booking-form {
+  background-color: #0000004c;
+  padding: 50px 24px;
+}
+.room-booking .booking-form .heading-subheading{
+  margin-bottom: 24px;
+}
+.room-booking .booking-form form label{
+  display:block;
+  color: #fff;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  padding-bottom: 10px;
+  
+}
+.room-booking .booking-form form {
+  display: flex;
+  justify-content: space-around;
+}
+.room-booking .booking-form input{
+  margin-bottom: 20px;
+  background-color: #ffd07f;
+  border: none;
+  color: #fff;
+}
+.room-booking .booking-form input::placeholder{
+  color: #fff;
+}
+ 
+.room-booking .booking-form input{
+  padding: 15px 10px;
+}
+
+
+
+
+footer{
+  background-color: #0f0f0f;
+  color: #fff;
+}
+footer .container{
+  padding: 60px 0;
+}
+footer .hare .heading{
+  font-family: "Jost", sans-serif;
+  font-size: 24px;
+  color: #8A7858;
+}
+footer .hare .images{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 74px;
+}
+footer .footer-main{
+  text-align: center;
+}
+footer .logo-name h3{
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  color: #8A7858;
+}
+footer .icon {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+footer .icon a{
+  color: #fff;
+}
+.fa{
+  padding: 20px 20px;
+  background-color: #8A7858;
+  border-radius: 50%;
+}
+.fa-facebook{
+  padding: 20px 24px;
+}
+footer .para{
+  margin-top: 20px;
+}
+footer .para p{
+  font-family: "Gafata", sans-serif;
+  font-size: 20px;
+}
+footer .time{
+  text-align: right;
+}
+footer .time h3{
+  font-family: "Jost", sans-serif;
+  font-size: 24px;
+}
+footer .time p{
+  font-family: "Gafata", sans-serif;
+  font-size: 20px;
+  word-spacing: 12px;
+}
+footer .time input{
+  width: 70%;
+  margin-top: 24px;
+}
+footer .time input[type="email"] {
+    padding: 10px;
+    background-color: #8A7858;
+    color: #fff;
+    font-family: "Gafata", sans-serif;
+  font-size: 18px;
+  border: none;
+    border-radius: 5px;
+
+}
+footer .time input::placeholder{
+  color: #fff;
 }

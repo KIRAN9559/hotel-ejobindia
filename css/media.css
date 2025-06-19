@@ -5,6 +5,15 @@
  .our-team .team-member .team-text p{
     padding: 10px 45px;
  }
+ footer .hare .images{
+    gap: 36px;
+ }
+ .rooms .card .overlay-2{
+   top: 390px;
+ }
+ .rooms .card:hover .overlay-2{
+  top: 170px;
+}
 }
 
 
@@ -15,6 +24,18 @@
  .our-team .team-member .team-text p{
     padding: 10px 15px;
  }
+ footer .hare .images{
+    gap: 24px;
+ }
+  .rooms .card .overlay-2{
+   top: 300px;
+ }
+.rooms .card .overlay-3{
+   font-size: 14px;
+}
+ .rooms .card:hover .overlay-2{
+  top: 150px;
+}
 }
 @media (min-width: 768px) and (max-width: 991px){
     .banner .carousel-inner .carousel-item .carousel-caption{
@@ -23,6 +44,46 @@
  .our-team .team-member .team-text p{
     padding: 10px 215px;
  }
+ footer .hare{
+    text-align: center;
+ }
+ footer .footer-main{
+    margin-top: 20px;
+ }
+ footer .time{
+    text-align: center;
+ }
+ footer .hare .images{
+    display: flex;
+    gap: 0px;
+    justify-content: space-around;
+ }
+   .rooms .card .overlay-2{
+   top: 860px;
+ }
+  .rooms .card:hover .overlay-2{
+  top: 750px;
+}
+.offer .offer-img::after{
+   left: 215px;
+   right: 215px;
+}
+.offer .offer-img .img-overlay .overlay{
+   width: 44%;
+   left: 194px;
+}
+.offer .offer-img{
+   margin-bottom: 24px;
+}
+.room-booking .form-image{
+   display: none;
+}
+.offset-2{
+   margin: 0;
+}
+.room-booking{
+   padding-bottom: 60px;
+}
 }
 @media (min-width: 576px) and (max-width: 767px){
     .banner .carousel-indicators [data-bs-target]{
@@ -32,7 +93,38 @@
 .our-team .team-member .team-text p{
     padding: 10px 125px;
  }
-
+ footer .hare{
+    display: none;
+ }
+  footer .time{
+    text-align: center;
+ }
+    .rooms .card .overlay-2{
+   top: 600px;
+ }
+  .rooms .card:hover .overlay-2{
+  top: 450px;
+}
+.offer .offer-img .img-overlay .overlay{
+   left: 105px;
+    width: 59%;
+}
+.offer .offer-img::after{
+   left: 124px;
+   right: 124px;
+}
+.offer .offer-img{
+   margin-bottom: 24px;
+}
+.room-booking .form-image{
+   display: none;
+}
+.offset-2{
+   margin: 0;
+}
+.room-booking{
+   padding-bottom: 60px;
+}
 }
 @media (min-width: 0px) and (max-width: 575px){
     .banner .carousel-indicators [data-bs-target]{
@@ -40,7 +132,7 @@
     height: 0px;
 }
 .legacy .legacy-image img{
-    max-width: 200px;
+    max-width: 360px;
     
 }
 .our-team .team-member .team-text p{
@@ -48,5 +140,36 @@
 }
 .love .item{
     display: block;
+    text-align: center;
+}
+footer .hare{
+    display: none;
+ }
+  footer .time{
+    text-align: center;
+ }
+     .rooms .card .overlay-2{
+   display: none;
+ }
+  .rooms .card:hover .overlay-2{
+  display: none;
+}
+.offer .offer-img::after{
+   display: none;
+}
+.offer .offer-img .img-overlay .overlay{
+   background-color: transparent;
+}
+.offer .offer-img{
+   margin-bottom: 24px;
+}
+.room-booking .form-image{
+   display: none;
+}
+.offset-2{
+   margin: 0;
+}
+.room-booking{
+   padding-bottom: 60px;
 }
 }
